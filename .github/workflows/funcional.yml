@@ -44,10 +44,10 @@ jobs:
         run: npm run impostoEquipe1
       - name: Roda testes construção piscina equipe 8
         run: npm run funcionalPiscinaEquipe8
-      - name: Roda testes equipe 7
-        run: npm run funcionalEquipeSete
       - name: Roda testes equipe 3
         run: npm run funcionalEquipeTres
+      - name: Roda testes equipe 7
+        run: npm run funcionalEquipeSete
       - name: fotos da tela
         uses: actions/upload-artifact@v4
         with:
